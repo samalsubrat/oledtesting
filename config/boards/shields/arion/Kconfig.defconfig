@@ -1,0 +1,9 @@
+if SHIELD_ARION
+
+config ZMK_KEYBOARD_NAME
+    default "arion"
+
+config I2C
+	default y
+
+endif

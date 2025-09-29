@@ -29,9 +29,9 @@
                     <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                    
 
-        col-gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>,
-                    <&gpio0 4 GPIO_ACTIVE_HIGH>,
-                    <&gpio0 5 GPIO_ACTIVE_HIGH>,
+        col-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 7 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 8 GPIO_ACTIVE_HIGH>,
                  
     };
 	
@@ -68,11 +68,11 @@
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 { /* SDA pin */
-            pins = <8>; /* GPIO 8 */
+            pins = <3>; /* GPIO 8 */
             function = "i2c";
         };
         group2 { /* SCL pin */
-            pins = <9>; /* GPIO 9 */
+            pins = <4>; /* GPIO 9 */
             function = "i2c";
         };
     };
